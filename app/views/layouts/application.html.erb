@@ -12,4 +12,11 @@
   <body>
     <%= yield %>
   </body>
+
+  <footer>
+  Made with love by the @Le Wagon <%= Time.now.year %>
+  <%= link_to 'About', about_path %>
+  <%= link_to 'Contact', contact_path %>
+  <%= link_to 'Restaurants', restaurants_path %>
+</footer>
 </html>
